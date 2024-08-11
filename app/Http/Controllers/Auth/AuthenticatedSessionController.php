@@ -29,13 +29,14 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
-        // return redirect()->intended(RouteServiceProvider::HOME);
+        // Check if a 'redirect_to' parameter exists in the request
+    if ($request->filled('redirect_to')) {
+        return redirect()->to($request->input('redirect_to'));
+    }
 
-         // Check if there's an intended URL and redirect to it
-         $intendedUrl = $request->session()->get('url.intended', RouteServiceProvider::HOME);
-         $request->session()->forget('url.intended'); // Clear the intended URL after redirect
- 
-         return redirect()->to($intendedUrl);
+        return redirect()->intended(RouteServiceProvider::HOME);
+
+        
     }
 
     /**

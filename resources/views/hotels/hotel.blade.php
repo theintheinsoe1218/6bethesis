@@ -25,8 +25,8 @@
                      @if (Auth::check())
                         <a href="{{ route('hotels.show', $hotel->id) }}" class="sub_btn px-4 py-2">More...</a>
                      @else
-                        <a href="{{ route('login') }}" class="sub_btn px-4 py-2">Login to View More</a>
-                        <form action="{{ route('login') }}" method="GET" style="display: none;">
+                     <a href="{{ route('login', ['redirect_to' => url()->full()]) }}" class="sub_btn px-4 py-2">More...</a>
+                     <form action="{{ route('login') }}" method="GET" style="display: none;">
                            @csrf
                            <input type="hidden" name="redirect_to" value="{{ route('hotels.show', $hotel->id) }}">
                         </form>
@@ -40,6 +40,13 @@
           
          
        </div>
+      <div class="row">
+         <div class="col-md-12">
+             <div class="pagination-wrapper d-flex justify-content-end">
+                 {{ $hotels->links('pagination::bootstrap-4') }}
+             </div>
+         </div>
+      </div>
     </div>
 </div>
 @endsection

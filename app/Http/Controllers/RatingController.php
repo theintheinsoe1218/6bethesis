@@ -18,7 +18,7 @@ class RatingController extends Controller
 
     public function store(Request $request)
     {
-        dd($request);
+        // dd($request);
         $request->validate([
             'hotel_id' => 'required|exists:hotels,id',
             'rating' => 'required|integer|min:1|max:5',

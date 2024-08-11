@@ -1,14 +1,16 @@
 @extends('user_layouts.app')
 
 @section('content')
-
+@if (session('success'))
+        <p>{{ session('success') }}</p>
+@endif
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-12">
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="path_to_image.jpg" class="img-fluid rounded-start" alt="{{ $hotel->name }}">
+                        <img src="user/images/room1.jpg" class="img-fluid rounded-start" alt="{{ $hotel->name }}">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
@@ -16,7 +18,6 @@
                             <p class="card-text">
                                 {{ $hotel->description }}
                             </p>
-                            {{-- <a href="#" class="btn btn-primary">More Information</a> --}}
                             <div class="mt-3">
                                 <form action="{{ url('/rate') }}" method="POST" class="d-inline">
                                     @csrf

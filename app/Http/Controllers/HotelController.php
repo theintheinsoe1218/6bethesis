@@ -14,12 +14,13 @@ class HotelController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth')->only('show'); // Ensure 'auth' middleware is applied to 'show'
+        $this->middleware('auth')->only('show');
     }
 
     public function index()
     {
-        $hotels = Hotel::all();
+        $hotels = Hotel::paginate(9);
+
         return view('hotels.hotel', compact('hotels'));
     }
 
@@ -44,10 +45,7 @@ class HotelController extends Controller
      */
     public function show(int $id)
     {
-        if (!Auth::check()) {
-            session()->put('url.intended', route('hotels.show', $id));
-            return redirect()->route('login');
-        }
+        
         $hotel = Hotel::findOrFail($id);
         return view('hotels.show', compact('hotel'));
     }
