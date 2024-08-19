@@ -220,83 +220,496 @@ class HotelSeeder extends Seeder
                 'description' => 'Set at the foot of Mandalay Hill, this sleek luxury hotel is 2 km from the 19th-century Shwenandaw Monastery and 3 km from Mandalay Palace. Elegant rooms with wooden floors offer free Wi-Fi, flat-screen TVs, minibars, and tea and coffeemaking equipment. All have palace or Mandalay Hill views. Upgraded rooms add access to an executive lounge. Suites and villas add plush living and dining areas; some have balconies. Room service is available',
                 'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
             ],
-            // [
-            //     'id' => 30,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
-            // [
-            //     'id' => 24,
-            //     'name' => '', 
-            //     'location' => '',
-            //     'description' => '',
-            //     'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
-            // ],
+            [
+                'id' => 30,
+                'name' => 'Ritz Grand Hotel', 
+                'location' => '42nd Street,Between 60th , 62th Street, Southern Mandalay, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3.5 stars, this high-quality property provides guests with access to massage, restaurant and fitness center on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 31,
+                'name' => 'Mandalay City Hotel', 
+                'location' => '26th Street, Between 82nd & 83rd Chan Aye Thar Zan Township, Mandalay',
+                'description' => 'This unpretentious hotel is 3 km from Mandalay Palace, and 6 km from both Shwenandaw Monastery and Kuthodaw Pagoda. Modest rooms provide Wi-Fi access, flat-screen TVs and minibars, as well as air-conditioning, safes, and tea and coffeemaking equipment. Suites add separate living areas and free-standing tubs. Room service is available. Breakfast is available. Other amenities include a restaurant, an outdoor pool and meeting space.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 32,
+                'name' => 'Mandalay Swan Hotel', 
+                'location' => 'No. 44(B) 26th , Bet 66th & 68th Street, Chan Aye Thar San Tsp, Mandalay',
+                'description' => "Across from the gates of the Mandalay Royal Palace complex, this laid-back hotel with 2 hectares of gardens is 3 km from both the Mandalay Railway Station and Kuthodaw Pagoda, a Buddhist stupa with the world's largest book. The unfussy rooms offer TVs, minibars and sitting areas, plus en suite, shower-only bathrooms. Room service is available. The 4 dining options include a casual international restaurant, and a bar/lounge with regular live music and a pool table. Other amenities consist of an outdoor pool, a tennis court and sunloungers, plus a business centre, a gym and a lounge.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 33,
+                'name' => 'Paragon Hotel', 
+                'location' => '65th x 66th St & Ngu Shwe Wah & Khaing Shwe Wah, near Mandalar Thiri, football stadium ocean super centres, Mandalay',
+                'description' => 'This informal hotel is 5 km from the ornate Mahamuni Buddha Temple, 7 km from the 19th-century Mandalay Palace complex and 6 km from Mandalay railway station. The unfussy rooms come with en suite bathrooms, flat-screen TVs and minibars, as well as safes, tea and coffeemaking facilities, and Wi-Fi. Upgraded rooms add balconies and/or corner baths. Amenities include a bar, an outdoor pool and a spa. A breakfast buffet and bike rentals are available.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 34,
+                'name' => 'Wilson Hotel', 
+                'location' => 'No.31 (E), 78th Street (Yangon-Mandalay Main Road Maha Aung Myay Township, ၇၈ လမ်း, Mandalay',
+                'description' => 'Set along Route 1, this relaxed hotel is 5 km from the Mandalay Palace and 8 km from Kuthodaw Pagoda. The Mandalay Chanmyathazi Airport is 2 km away. Colorful rooms with wood floors or quirky tiling, provide free Wi-Fi and flat-screen TVs, as well as minifridges, and tea and coffeemaking facilities. Some come with separate living areas. Room service is available 24/7. Amenities include a bar, BBQ facilities and a casual buffet-style restaurant with panoramic views, along with spa, an outdoor gym and a rooftop deck with a pool. Rental bikes and airport transfers are offered for a fee. Parking is available.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 35,
+                'name' => 'Triumph Hotel Mandalay', 
+                'location' => 'No. (1), 26th (B) Road, Between ; 55th & 56th Street, Aung Myay Tharzan, Township, Mandalay',
+                'description' => "Off Highway 3, this down-to-earth hotel set amid gardens is 3 km from Shwenandaw Monastery and 7 km from the scenic Mandalay Hill. Laid-back rooms offer Wi-Fi, flat-screen TVs, and tea and coffeemaking equipment, plus in-room safes and en suite, shower-only bathrooms. Upgraded quarters add teak furnishings, lounge areas and baths. Suites sleep up to 3 guests. All have garden views and minifridges. There's a breakfast buffet. Other amenities include an outdoor pool, a restaurant and conference facilities, plus a gym. Massage services are offered, and parking is available.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 36,
+                'name' => 'Shwe Ye Mon Hotel', 
+                'location' => '53rd street, between:38th & 39th street, Mahar Aung Myae Tsp, Mandalay',
+                'description' => 'In a residential district, this informal hotel is 7 km from the Mahamuni Buddha Temple, 8 km from Zay Cho Market and 2 km from Aung Pin Le railway station. Understated rooms provide flat-screen TVs, Wi-Fi and minifridges, in addition to safes, and tea and coffeemaking facilities. Upgraded rooms add sitting areas. Room service is available 24/7. Amenities include an outdoor pool with bar service, plus a gym and a restaurant. Parking and bike rentals are available.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 37,
+                'name' => 'Hotel 78', 
+                'location' => 'No.902, Corner of 78th Street and Theik Pan Street, Chan Mya Tharsi Township, Southern Mandalay, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3 stars, this high-quality property provides guests with access to massage, restaurant and spa on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 38,
+                'name' => 'Hotel Shwe Pyi Thar', 
+                'location' => 'N0.B-8, Pyin Oo Lwin Road,, Between 31st & 32nd Street, Chan Aye Thar Zan Townshi, Mandalay',
+                'description' => "Flanked by greenery, this upscale hotel is 7 km from Shwenandaw Monastery, 8 km from Mandalay Palace and 6 km from Mandalay train station. Airy, polished rooms feature traditional carved wood furniture, TVs, and en suite bathrooms with soaking tubs. Suites add separate living rooms, wood-panelling and ornate decor. Upgraded suites add terraces, whirlpool tubs and/or dining rooms with kitchenettes. Room service is available. There's a restaurant and a posh cafe/bar. A breakfast buffet is available. Other amenities include an outdoor pool, a spa and a gym, as well as Wi-Fi and shops.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 39,
+                'name' => 'Aung Myint Mo Hotel', 
+                'location' => 'Corner of Yangon-Mandalay Road & Chan Mya Shwe Pyi Base Compound Street, Kywesekan, Southern Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 40,
+                'name' => 'Grand Central Hotel', 
+                'location' => '30th Street, Between 76th & 77th Street, Chan Aye Thar Zan Township, Central Mandalay, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. This 3-star property features restaurant to make your stay more indulgent and memorable.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 41,
+                'name' => 'Ibis Styles Hotel Mandalay', 
+                'location' => '151 Corner Of 35 And 54 Streets Chan Aye Thar San Township, Eastern Mandalay, Mandalay,',
+                'description' => "Conveniently situated in the Eastern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 4 stars, this high-quality property provides guests with access to restaurant, fitness center and indoor pool on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 42,
+                'name' => 'Gold Leaf Hotel Mandalay', 
+                'location' => '36th Street, Between 77th &, 78th St, Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3 stars, this high-quality property provides guests with access to massage, restaurant and spa on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 43,
+                'name' => 'Shwe Phyu Hotel', 
+                'location' => 'No.3(10), 64th St, Mandalay',
+                'description' => "Set in a bright corner building, this straightforward hotel is 4 km Mandalay Chanmyathazi Airport and 6 km from Kuthodaw Pagoda. Mandalay Hill is 8 km away. Low-key rooms have Wi-Fi access, flat-screen TVs and minifridges, plus tea and coffeemaking facilities. Airy suites add separate living areas with city views. A breakfast buffet is included. There’s a casual restaurant, an outdoor pool and sunloungers. Other amenities consist of a meeting room and airport transportation.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 44,
+                'name' => 'Sunrise Hotel', 
+                'location' => 'No.195, 35th Street Between 77th & 78th Street, Central Mandalay, Mandalay,',
+                'description' => 'Conveniently situated in the Central Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. This 3-star property is packed with in-house facilities to improve the quality and joy of your stay.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 45,
+                'name' => 'Shwe Htee Hotel', 
+                'location' => 'No. 1234, Jasmin street, Between 60th & 62nd, Near Nursing University, Mandalay',
+                'description' => 'Next to a hospital, this low-key budget hotel is 5 km from the Mahamuni Buddha Temple, 6 km from Mandalay Chanmyathazi Airport and 8 km from Mandalay Palace. The understated rooms come with Wi-Fi and flat-screen TVs, plus tea and coffeemaking facilities. Upgraded rooms add wet bars, minifridges and microwaves; suites feature living rooms. Room service is available. A breakfast buffet is available. Other amenities include a bar and a gym.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 46,
+                'name' => 'Moon Light Hotel', 
+                'location' => '79 Road, Between 27*28 Street, Chanayetharzan Township, Mandalay',
+                'description' => "In an area filled with shopping and dining options, this understated hotel is 3 km from the 19th-century Mandalay Palace and a 9-minute walk from Mandalay train station. The relaxed rooms come with flat-screen TVs, as well as minifridges, and tea and coffeemaking facilities. Amenities include an informal dining room, and a furnished rooftop terrace offering city views.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 47,
+                'name' => 'Hotel Homey Mandalay', 
+                'location' => '64th Street, Between 27th and 28th Street Mandalay,',
+                'description' => "In an area filled with cafes and restaurants, this informal hotel on a tree-lined street is 3 km from both Mandalay railway station and the 19th-century Mandalay Palace. It's 4 km from the Kuthodaw Pagoda Buddhist temple and pilgrimage site. Featuring wood floors and furnishings, the unfussy rooms provide Wi-Fi and flat-screen TVs, plus safes, minifridges, and tea and coffeemaking facilities. Family rooms sleep up to 3 people. Room service is available. Amenities include a rooftop terrace with city views, as well as parking and a breakfast buffet.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 48,
+                'name' => 'Golden Mandalay Hotel', 
+                'location' => 'No.78/Nga, Corner of 19th and 60th Street Nan Shae, AungMyayTharZan Township, Northern Mandalay,',
+                'description' => "Get your trip off to a great start with a stay at this property, which offers car park free of charge. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 49,
+                'name' => 'Royal Yadanarbon Hotel', 
+                'location' => '89 Road, Between 22&23, Pinya St, Mandalay',
+                'description' => 'In a commercial area a 3-minute walk from the nearest bus stop, this relaxed hotel is 3 km from the 19th-century Mandalay Palace and 5 km from the Mahamuni Buddha Temple pilgrimage site. Straightforward rooms provide free Wi-Fi and flat-screen TVs, along with sitting areas, desks and minifridges. Mixed-sex dorms include bamboo bunk beds. Room service is available. Loaner bikes are complimentary. A relaxed lobby lounge features tile floors and intricately carved furniture.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 51,
+                'name' => 'Hotel Duo Swan', 
+                'location' => '37th Street, Between 66th & 67th Streets, Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Eastern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 52,
+                'name' => 'Super Light Guest House', 
+                'location' => '59th St Bet, (Manaw Hari) 110th St & (Khaing Shwe Wah, 109th St, Mandalay',
+                'description' => 'In an area filled with casual shops and eateries, this laid-back hotel is 1 mile from Aung Pin Le railway station, 4 miles from MKo Moeahamuni Buddhist Temple and 2 miles from Mandalar Thiri Sports Stadium. Featuring wood panelling, the down-to-earth rooms provide flat-screen TVs, minifridges, and tea and coffeemaking facilities, as well as air conditioning and Wi-Fi. There are also family rooms. Breakfast is served in a casual dining room. Traditional massages are available.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 53,
+                'name' => 'Hotel Emperor', 
+                'location' => 'Bet 26th & 27th, 74th St, Mandalay',
+                'description' => "Across a road from a canal, this informal hotel is an 18-minute walk from the 19th-century Mandalay Palace, 1 km from Mandalay railway station and 2 km from the lively Zegyo Market. Featuring wood panelling, the unfussy rooms provide flat-screen TVs, minibars, and tea and coffeemaking equipment. There's a warm lobby lounge. Bike rentals are also available.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 54,
+                'name' => 'Power Hotel', 
+                'location' => 'No. 686, 80th st., 39th x 40th st.,, Southern Mandalay, Mandalay,',
+                'description' => "Within 10 minutes' walk of cafes and restaurants, this unpretentious hotel is 2 km from both Mandalay railway station and the revered Mahamuni Buddha Temple. The down-to-earth rooms and suites come with satellite TV; some quarters also provide minifridges and/or dining areas. There's an airy lounge featuring a striking image of a traditional soldier on horseback. Parking and breakfast are available.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 55,
+                'name' => 'Royal Ruby Hotel', 
+                'location' => '81st Street, Between 21st x 22nd Street, No.157, Northern Mandalay, Mandalay',
+                'description' => "Get your trip off to a great start with a stay at this property, which offers free Wi-Fi in all rooms. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. This 3-star property is packed with in-house facilities to improve the quality and joy of your stay.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 56,
+                'name' => 'Stone Inn', 
+                'location' => 'No. Ta-7/ Nya-28, Bogyoke Ywa, Between 68th & 70th Streets and Theikpan Road & Thazin Streets, Chan Mya Tha Zi Township, Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 57,
+                'name' => 'Ruby Land Hotel', 
+                'location' => 'No C-1,65th St, Between 29×30th Sts, Pyi Gyi Myat Shin Ward, Mandalay',
+                'description' => "Conveniently situated in the Eastern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 58,
+                'name' => 'Hotel A1', 
+                'location' => 'Corner of 32nd and 83rd Street, Chan Aye Thar Zan Township, Central Mandalay, Mandalay,',
+                'description' => "On a bustling street lined with local businesses, this bright hotel is 8 km from the iconic Mandalay Hill, overlooking multiple temples. It's 4 km from Mandalay Palace and 6 km from Mandalay International Airport. Simply furnished rooms provide flat-screen TVs, free Wi-Fi and minifridges, as well as tea and coffeemaking equipment. Some feature bathrooms with wet rooms. Family rooms sleep up to 4 people. Room service is offered. Complimentary amenities include breakfast and loaner bikes. In addition to an informal lobby lounge, there's a casual restaurant with views of the city. An on-call doctor and a back-up generator are available.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 59,
+                'name' => 'Hotel Moe Thee', 
+                'location' => 'No.257, 77th St, Between 36th St x 37th St, Hay Ma Malar North Quarter, Mahar Aung Myay Township, Southern Mandalay, Mandalay, ',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Southern Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. Restaurant and fitness center are among the special facilities that will enhance your stay with on-site convenience.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 60,
+                'name' => 'Amayarnadi Hotel', 
+                'location' => 'Corner of 60th Street & NguShweWah Street - AungSan Street, Mandalay',
+                'description' => 'Set 5 km from the golden-clad Mahamuni Buddha Temple statue, this straightforward hotel is 8 km from the landmark Mandalay Palace and a 16-minute walk from the Aung Pin Le train station. Unassuming rooms come with Wi-Fi, minfridges and in-room safes. Some feature city views, tubs and/or kettles. Upgraded rooms add sitting areas. Room service is available. A breakfast buffet is offered. Amenities include a laid-back restaurant/bar and an airy lobby lounge with sofas.',
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 61,
+                'name' => 'Hotel Sakura Princess', 
+                'location' => 'No.7/8 (B), 67th Street, Between 32nd x 33rd Street, Chan Aye Thar Zan Township, Eastern Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Eastern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3 stars, this high-quality property provides guests with access to massage, restaurant and fitness center on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 62,
+                'name' => 'Golden Hotel', 
+                'location' => 'Corner of 53rd and 33rd Streets, Chan Aye Thar San Township',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Eastern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3 stars, this high-quality property provides guests with access to massage, restaurant and fitness center on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 63,
+                'name' => 'Majestic Hotel Mandalay', 
+                'location' => 'Corner of 12th Street and 76th Street, North Moat, AungMyayTharSan Township Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 64,
+                'name' => 'Rupar Mandalar Resort', 
+                'location' => 'No.(A-15), Corner of 53rd & 30th Street, Chan Aye Tharzan Township Mandalay,',
+                'description' => "Set on 2 hectares next to a residential neighbourhood, this upscale resort lies 5 km from Shwenandaw Monastery, built in 1878. Route 3 is less than 1 km away. Refined wood-panelled rooms feature free Wi-Fi, satellite TV and minibars. Suites add separate living rooms; some have balconies offering pool views. Room service is available. A breakfast buffet, a Thai massage and a happy hour cocktail are complimentary. Other amenities include a formal restaurant and an open-air bar/lounge, plus an outdoor pool, a hot tub and a sundeck. There's also a gym and a spa.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 65,
+                'name' => 'Orient Hotel', 
+                'location' => 'No. 144, 27th Street, Bet 79th X 80th Street, Central Mandalay, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. This 3-star property features restaurant to make your stay more indulgent and memorable.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 66,
+                'name' => 'Hotel Yadanar Oo', 
+                'location' => 'No.(676), 22nd St., Bet: 65th x 66th, South of National Theatre Aung Myay Thar Zan Township, Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3 stars, this high-quality property provides guests with access to restaurant, indoor pool and outdoor pool on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 67,
+                'name' => 'Rising Venus Hotel', 
+                'location' => 'Ta.(7) /Nya.(11), Between 70th x 71st Streets, Yuzana Street & Shwe Hnin Si Street, Bogoke Village, , Southern Mandalay, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3 stars, this high-quality property provides guests with access to massage, restaurant and fitness center on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 68,
+                'name' => 'Night Sweet Hotel', 
+                'location' => 'Da-2/7, Corner of 66 Street x 40 Street, Mahamyaing (1), Maha Aung Myae Township, Eastern Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Eastern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Massage and restaurant are among the special facilities that will enhance your stay with on-site convenience.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 69,
+                'name' => 'Perfect Hotel', 
+                'location' => 'Corner of 59 and Theikpan road, mandalay,',
+                'description' => "Along a main road, this informal hotel is a 2-minute walk from Aung Pin Le train station and 4 km from the Mahamuni Buddha Temple pilgrimage site. Streamlined rooms offer Wi-Fi and flat-screen TVs, plus minifridges and kettles. Most have en suite wet rooms; some provide baths. Room service is 24/7. Amenities include a down-to-earth restaurant and a sleek bar. A breakfast buffet, parking and bike rentals are available, as are spa treatments.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 70,
+                'name' => 'Silver Star Hotel', 
+                'location' => 'No. 195. Corner of 27th Street & 83rd Street, Chan Aye Tharzan Township, Central Mandalay, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. This 3-star property features restaurant to make your stay more indulgent and memorable.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 71,
+                'name' => 'Yadanar Theingi Hotel', 
+                'location' => 'No.189, 83rd Street, Between 26th & 27th Street, Near Zay Cho Market, Chan Aye Thar Zan Township,, Central Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 72,
+                'name' => 'Palace View Hotel', 
+                'location' => '15/B, 26th Street, Between 75th x 76th Street, Chan Aye Thar Zan Township, Mandalay,',
+                'description' => "This simple hotel is set in a buzzing downtown area. The Zay Cho Market and Mandalay Palace complex are both 2 km away. It also lies 1 km from Mandalay Railway Station and 24 km from Mandalay International Airport. Straightforward rooms come with en suite bathrooms, air conditioning, Wi-Fi and TVs. Some rooms have balconies with views of the Mandalay Palace complex. Amenities include a 24-hour front desk, parking spaces and an airport shuttle service. There’s also a casual restaurant with Mandalay Palace views.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 73,
+                'name' => 'Hotel Wonderland', 
+                'location' => 'Shwe Hnin Si St, Between 68th & 69th, Chan Mya Thar Si Township, Southern Mandalay, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 74,
+                'name' => 'Hotel Aurora', 
+                'location' => 'No.190, 87th Street Between 26th Street and 27th Street Chan Aye Thar Zan Township. Near Zay Cho Market Mandalay,',
+                'description' => "Offering city views, this unassuming hotel is 3 km from Mandalay Palace, 7 minutes' walk from Zegyo Market and 38 km from Mandalay International Airport. Colorful, relaxed rooms provide free Wi-Fi, flat-screen TVs and minifridges, as well as tea and coffeemaking facilities. Breakfast and parking are complimentary. Other amenities include a business center, and a casual restaurant with a rooftop terrace.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 75,
+                'name' => 'Royal Peacock Hotel', 
+                'location' => '83rd Street,Between 22nd &amp; 23rd Street,Aung Myay Thar Zan Township,Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. This 3-star property features restaurant to make your stay more indulgent and memorable.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 76,
+                'name' => 'Hotel Boss', 
+                'location' => 'No.16 , 26 B Road, Between 91*92 Street , Chan Aye Thar Zaw Township, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Western Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3 stars, this high-quality property provides guests with access to massage, restaurant and hot tub on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 77,
+                'name' => 'Palace Hotel', 
+                'location' => 'No.267, 80th Street, Bet 32nd & 33rd Street, Central Mandalay, Mandalay, ',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 78,
+                'name' => 'King Park Hotel', 
+                'location' => '72nd Street, Between 33 &, 34th St, Mandalay',
+                'description' => "In an area filled with eateries, this informal hotel with a colourful exterior is 7 km from pagodas and monasteries at Mandalay Hill, and 3 km from the 19th-century Mandalay Palace. It's 2 km from Mandalay train station. Casual rooms feature flat-screen TVs, safes, minifridges, and tea and coffeemaking facilities; some have Wi-Fi. Family rooms add sitting areas, and hill and/or city views. Room service is available 24/7. There's a restaurant. Parking and a breakfast buffet are offered.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 79,
+                'name' => 'New Tiger Hotel', 
+                'location' => '80St;Between37&38, Southern Mandalay, Mandalay, ',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. This 3-star property features restaurant to make your stay more indulgent and memorable.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 80,
+                'name' => 'Royal Power Hotel', 
+                'location' => '80th Street, Bet: 27th & 28th st, Chan Aye Thar San Township, Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. Massage and restaurant are among the special facilities that will enhance your stay with on-site convenience.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 81,
+                'name' => 'Mandalay Karaweik Mobile Hotel', 
+                'location' => 'Stand Street, Between 32nd and 33rd Street, Chanaye Tharzan Township, Western Mandalay, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Western Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. This 3-star property features restaurant to make your stay more indulgent and memorable.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 82,
+                'name' => 'Hotel 82', 
+                'location' => 'No. 571, 82nd Street, Between 32 st and 31 st ,Mandalay ',
+                'description' => "A 14-minute walk from the Mandalay Central railway station, this low-key hotel is 2 km from Mahamuni Buddha Temple, and 4 km from 19th-century Mandalay Palace with mausoleums and a throne room. Humble rooms offer Wi-Fi and cable TV, plus minifridges, and tea and coffeemaking facilities. All have en suite bathrooms. Some offer city views. There's a restaurant, and 24-hour security. Bike rentals are offered. Breakfast is available, as is parking.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 83,
+                'name' => 'Hotel My World', 
+                'location' => 'No. 70, 30th St, Bet 73rd x 74th St, Chan Aye Thar San, Mandalay',
+                'description' => "This unpretentious budget hotel in the city centre is an 11-minute walk from Mandalay Railway Station, 2 km from the 19th-century Mandalay Palace and 5 km from storied Buddhist Atumashi Monastery. The straightforward rooms come with complimentary Wi-Fi and satellite TV, plus minifridges, and tea and coffeemaking equipment. There's an informal restaurant. Valet parking and bike rentals are available. A generator is on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 84,
+                'name' => 'Hotel Myat Nan Taw Win', 
+                'location' => 'No.65, Kywe Se Kan 5th Street, Pyi Kyi Ta Khon Township, Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Southern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 85,
+                'name' => 'Royal Naung Yoe Hotel', 
+                'location' => '34th Street, Between 65th x 66th Street, Chan Aye Thar Zan Township, Mandalay',
+                'description' => "Close to eateries, this unpretentious hotel is 4 km from both Mandalay railway station and the 19th-century Mandalay Palace. It's 5 km from the bustling Zegyo Market. Unassuming, warmly decorated rooms feature flat-screen TVs, minifridges, and tea and coffeemaking facilities, as well as en suite bathrooms. Amenities include a casual dining room, and a low-key lobby lounge with a chandelier and ornately carved wood furnishings.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 86,
+                'name' => 'Great Wall Hotel Mandalay', 
+                'location' => '78th Road, Between 42nd & Theik pan Street, Yangon-Mandalay Highway Road, Mandalay',
+                'description' => "Set along Highway 1, this warm hotel is 2 km from Mahamuni Buddha Temple, a major pilgrimage site. The 19th-century Mandalay Palace is 5 km away. Casual rooms offer cable TV, minifridges and air conditioning, as well as room service. Upgraded rooms have sitting areas. Amenities include a relaxed bar, a fitness center and conference facilities. There's also a restaurant.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 87,
+                'name' => 'The Link - 83rd', 
+                'location' => 'No. 597, 83rd Street, Between 27th and 28th Street,, Mandalay',
+                'description' => "Occupying a modern building on a street lined with shops, this upmarket hotel is 3 km from the Mandalay Palace, a 19th-century royal residence and 4 km from Mahamuni Buddha Temple. It's 40 km from Mandalay International Airport. The warmly decorated rooms include free Wi-Fi, flat-screen TVs and minibars, as well as safes, and tea and coffeemaking equipment. Some feature sitting areas, city views and/or futons. There's a dining room.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 88,
+                'name' => 'Golden City Light Hotel', 
+                'location' => 'No .50 ,77 Street , btw 34 Street &amp; 35 Street , Chan Aye Thar Zan Township., Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. Restaurant and spa are among the special facilities that will enhance your stay with on-site convenience.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 89,
+                'name' => 'Hotel Dingar', 
+                'location' => '35th Street, Between 72nd & 73rd Street, Mahar Aung Myay Township, Mandalay',
+                'description' => "Set 4 km from the Mandalay Chanmyathazi Airport, this informal hotel is a 10-minute walk from the Chinatown Night Market and 3 km from Mandalay Palace. Relaxed rooms with teak furnishings offer free Wi-Fi, flat-screen TVs, and tea and coffeemaking equipment, plus minifridges and en suite, shower-only bathrooms. Some include city views and sleep up to 3 guests. Room service is available. Breakfast and parking are complimentary. There's a laid-back restaurant, a lobby lounge and a rooftop bar. Conference facilities and an airport shuttle are available.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 90,
+                'name' => 'Golden Dream Hotel', 
+                'location' => 'No. 255, 30th Street, Between 89th & 90th Street, North of Pyi Kyaw Market, Mandalay',
+                'description' => "Set 3 km from the Mandalay Railway Station, this straightforward hotel near shops is 4 km from the grand Mahamuni Buddha Temple, and 5 km from Mandalay Palace, the last royal Burmese palace. The unfussy rooms feature free Wi-Fi, flat-screen TVs and sitting areas, as well as minifridges, and tea and coffeemaking facilities. Room service is available. Complimentary amenities include parking and a breakfast buffet. Other amenities include a warm lobby seating area and a casual rooftop restaurant with a terrace offering panoramic city views. Bike rentals and an area shuttle are available.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 91,
+                'name' => 'Oway Grand Hotel', 
+                'location' => 'No. 624, 78th Street, Bet: 30th x 31st, Chan Aye Tharsan Township, Mandalay',
+                'description' => "Overlooking a bustling street, this streamlined hotel is a minutes' walk from the Mandalay Railway Station and 3 km from revered Mandalay Palace, featuring a throne room, a clock tower & mausoleums. The informal rooms offer free Wi-Fi, flat-screen TVs and minifridges, plus en suite facilities with showers. Breakfast is available. Other amenities include a meeting room and a simple restaurant featuring warm decor.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 92,
+                'name' => 'Good Time Hotel', 
+                'location' => 'No. 96/F, Yadanarbon Street, Ahneiktaw Quarter, Block 49, Nanshae, Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Restaurant and fitness center are among the special facilities that will enhance your stay with on-site convenience.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 93,
+                'name' => 'Hotel Mega Star', 
+                'location' => '80th Street, Between 8th Street & Strand Road, Aung Myay Thar Zan Township, Mandalay',
+                'description' => "Get your trip off to a great start with a stay at this property, which offers free Wi-Fi in all rooms. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Rated with 3 stars, this high-quality property provides guests with access to restaurant, indoor pool and outdoor pool on-site.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 94,
+                'name' => 'Hotel United Mandalay', 
+                'location' => 'No.60, Coner of 64th St & 19th St, Nan Shae, Aung Myae Thar Zan Township, Mandalay',
+                'description' => "Get your trip off to a great start with a stay at this property, which offers free Wi-Fi in all rooms. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 95,
+                'name' => 'East Mandalay Hotel', 
+                'location' => '62nd St, Bet: 26th x 27th St, Chan Aye Thar San Township, Mandalay',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Eastern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Massage and restaurant are among the special facilities that will enhance your stay with on-site convenience.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 96,
+                'name' => 'Hotel Ye Myanmar', 
+                'location' => 'No.53-54, X432+JV6 Mahar Aung Myat Township, Corner of 68th & 43rd St, Mandalay',
+                'description' => "Set 2 km from Aung Pin Le Railway Station, this down-to-earth hotel is 3 km from the Mahamuni Buddha Temple and 5 km from Mandalay Palace, a 19th-century royal palace. Relaxed rooms with warm decor offer free Wi-Fi, flat-screen TVs and minibars, plus in-room safes and 24-hour room service. Some quarters sleep up to 3 guests. Extra beds are available for a fee. There's a laid-back restaurant and a chic bar, plus bike rentals and a terrace with city views. Parking is available.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 97,
+                'name' => 'Mingalar Hotel', 
+                'location' => 'No.43/B ,22nd Street, 88th x 89th Street, Yuzana Corner, Mandalay',
+                'description' => "Beside Thiri Mandalar Highway bus station, this casual hotel close to restaurants is a 6-minute walk from Aung Myay Mandalar Stadium, 9 minutes away on foot from the Khaymar Wunthi monastery and 4 miles from Kuthodaw Pagoda. Low-key rooms come with air conditioning and flat-screen TVs. Bathrooms, some with showers only, are en suite. An unassuming lobby lounge features ornately carved wooden furnishings. Breakfast and meeting space are also available.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 98,
+                'name' => 'New Aye Yar Hotel', 
+                'location' => '35th st, Between 75×74th St, Mahar Aung Myay Township, Mandalay',
+                'description' => "Get your trip off to a great start with a stay at this property, which offers free Wi-Fi in all rooms. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 99,
+                'name' => 'Emerald Land Hotel', 
+                'location' => '14 Street Bet 87 & 88 Street, Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Northern Mandalay part of Mandalay, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Mandalay Hill. Restaurant, indoor pool and outdoor pool are among the special facilities that will enhance your stay with on-site convenience.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
+            [
+                'id' => 100,
+                'name' => 'Royal Diamond Hotel', 
+                'location' => 'No.(207),77 Street,between 33 street and 34 street, Central Mandalay,',
+                'description' => "The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Strategically situated in Central Mandalay, allowing you access and proximity to local attractions and sights. Don't leave before paying a visit to the famous Mandalay Hill. As an added bonus, restaurant is provided on-site to conveniently serve your needs.",
+                'images' => json_encode(['hotel1.jpg', 'hotel2.jpg'])
+            ],
 
         ];
 
